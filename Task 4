@@ -1,0 +1,5 @@
+string = input("Enter a list numbers or elements separated by space: ")
+list1 = string.split()
+for i in range(0,len(list1)):
+    if eval(list1[i])>0:
+        print(list1[i])
